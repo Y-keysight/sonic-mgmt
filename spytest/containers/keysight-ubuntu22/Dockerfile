@@ -30,8 +30,8 @@ RUN bash ./IxNetworkAPI11.00.2407.37Linux64.bin -i silent \
     && pip install --no-cache-dir -r /opt/ixia/ixnetwork/11.00.2407.37/lib/PythonApi/requirements.txt
 ENV SCID_TGEN_PATH=/opt
 ENV SCID_TCL85_BIN=/opt
-ENV IXNETWORK_VERSION=9.30.2212.7
-ENV HLAPI_VERSION=9.30.2212.6
+ENV IXNETWORK_VERSION=11.00.2407.37
+ENV HLAPI_VERSION=11.00.2407.37
 
 LABEL author="Theresa Kong and Seung Yeop Yang"
 LABEL version="1.0"
