@@ -33,6 +33,6 @@ ENV SCID_TCL85_BIN=/opt
 ENV IXNETWORK_VERSION=9.30.2212.7
 ENV HLAPI_VERSION=9.30.2212.6
 
-LABEL author="Mircea Dan Gheorghe"
+LABEL author="Theresa Kong and Seung Yeop Yang"
 LABEL version="1.0"
 LABEL description="SpyTest with Keysight traffic generator"
